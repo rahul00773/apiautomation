@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Sanity Suite" verbose="1">
+
+    <test name="User Validation API's">
+        <classes>
+            <class name="TestUserLoginFlow"/>
+        </classes>
+    </test>
+    <test name="User Transaction History">
+        <classes>
+            <class name="TestUserTransactionHistory"/>
+        </classes>
+    </test>
+
+</suite>
